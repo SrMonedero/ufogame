@@ -124,7 +124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &422259108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -506,6 +506,11 @@ Prefab:
       propertyPath: m_Name
       value: Pickup (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 212226101844632608, guid: 5d8fd04e1b8dd4e8cb49e6627accec5e,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8fd04e1b8dd4e8cb49e6627accec5e, type: 2}
   m_IsPrefabParent: 0
@@ -734,6 +739,11 @@ Prefab:
     - target: {fileID: 1918248988172148, guid: 5d8fd04e1b8dd4e8cb49e6627accec5e, type: 2}
       propertyPath: m_Name
       value: Pickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 50227201299778014, guid: 5d8fd04e1b8dd4e8cb49e6627accec5e,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8fd04e1b8dd4e8cb49e6627accec5e, type: 2}
